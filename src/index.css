@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+  --color-cosmo-m: oklch(0.38 0.16 322.2);
+  --color-cosmo-ml: oklch(0.48 0.23 318.5);
+  --color-cosmo-b: oklch(0.34 0.28 264.4);
+  --color-cosmo-db: oklch(0.20 0.13 268.8);
+}
