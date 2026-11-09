@@ -1,11 +1,11 @@
-import { createBrowserRouter } from 'react-router';
+import { createBrowserRouter } from 'react-router'
 
 import App from './App'
 
 import HomePage from './pages/home'
 import ProjectsPage from './pages/projects'
 import TeamsPage from './pages/teams'
-import NotFoundPage from './pages/errors/NotFoundPage';
+import NotFoundPage from './pages/errors/NotFoundPage'
 
 const router = createBrowserRouter([
   {
