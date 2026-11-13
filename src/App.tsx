@@ -1,8 +1,18 @@
+import { NavLink, Outlet } from 'react-router'
+
 function App() {
   return (
-    <h3>
-      Hello World
-    </h3>
+    <>
+      <nav>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/teams">Teams</NavLink>
+      </nav>
+      <main>
+        <Outlet />
+      </main>
+      <div>Footer</div>
+    </>
   )
 }
 
